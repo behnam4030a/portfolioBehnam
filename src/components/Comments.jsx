@@ -44,7 +44,6 @@ const Comments = () => {
                 <Grid container spacing={2}>
                     <Swiper
                         modules={[Pagination, Autoplay, Navigation]}
-                        navigation
                         pagination={{ clickable: true }}
                         autoplay={{ delay: 5000, disableOnInteraction: false }}
                         spaceBetween={20}
