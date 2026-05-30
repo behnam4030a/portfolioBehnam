@@ -41,7 +41,7 @@ const AboutMe = () =>{
     },[])
 
     return(
-        <Card sx={{height:"100dvh",overflow:"auto"}}>
+        <Card sx={{height:"100dvh", overflowY:"auto", overflowX:"hidden"}}>
             <CardContent>
                 <Grid container>
                     <Grid size={{xs:0, sm:0, md:4, lg:4, xl:4 }}>

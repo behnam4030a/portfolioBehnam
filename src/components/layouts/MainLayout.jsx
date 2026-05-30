@@ -20,7 +20,7 @@ const MainLayout = ({children}) => {
             <Helmet>
                 <title>وب سایت شخصی بهنام بیجاری</title>
             </Helmet>
-            <Grid container>
+            <Grid container sx={{height:"100dvh", overflow:"hidden"}}>
                 {children}
             </Grid>
         </HelmetProvider>

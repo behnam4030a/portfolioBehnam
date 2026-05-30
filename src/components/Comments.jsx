@@ -34,7 +34,7 @@ const comments = [
 const Comments = () => {
 
     return (
-        <Card sx={{ height: "100dvh", overflow: "auto" }}>
+        <Card sx={{ height: "100dvh", overflowY: "auto", overflowX: "hidden" }}>
             <CardContent>
                 <Divider textAlign="center" sx={{ mb: 3 }}>
                     <Chip color="primary" label={
