@@ -2,6 +2,7 @@ import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Chip
 import { useEffect, useState } from "react";
 import { CgCode } from "react-icons/cg";
 import bg3 from "../assets/bg03.jpeg"
+import dashboard from "../assets/Screenshot 2026-05-30 132236.png"
 
 
 const Portfolio = () =>{
@@ -29,11 +30,11 @@ const Portfolio = () =>{
                 <Grid container spacing={2}>
                     <Grid size={{xs:12,sm:6,md:4}} >
                         <Slide direction="up" style={{transitionDuration:"300ms"}} in={loading}>
-                            <Card sx={{  minHeight:350 }}>
+                            <Card sx={{  minHeight:380 }}>
                                 <CardActionArea>
                                     <CardMedia
                                     component="img"
-                                    height="140"
+                                    height="200"
                                     image="https://esanj.ir/website/images/ai-section-index.png"
                                     alt="green iguana"
                                     />
@@ -56,11 +57,11 @@ const Portfolio = () =>{
                     </Grid>
                     <Grid size={{xs:12,sm:6,md:4}} >
                         <Slide direction="up" style={{transitionDuration:"300ms"}} in={loading}>
-                            <Card sx={{ minHeight:350}}>
+                            <Card sx={{ minHeight:380}}>
                                 <CardActionArea>
                                     <CardMedia
                                     component="img"
-                                    height="140"
+                                    height="200"
                                     image={bg3}
                                     alt="green iguana"
                                     />
@@ -83,11 +84,11 @@ const Portfolio = () =>{
                     </Grid>
                     <Grid size={{xs:12,sm:6,md:4}} >
                         <Slide direction="up" style={{transitionDuration:"300ms"}} in={loading}>
-                            <Card sx={{  minHeight:350}}>
+                            <Card sx={{  minHeight:380}}>
                                 <CardActionArea>
                                     <CardMedia
                                     component="img"
-                                    height="140"
+                                    height="200"
                                     image="https://cdn.esanj.ir/landings/cmhq/global-standards.webp"
                                     alt="green iguana"
                                     />
@@ -110,12 +111,12 @@ const Portfolio = () =>{
                     </Grid>
                     <Grid size={{xs:12,sm:6,md:4}} >
                         <Slide direction="up" style={{transitionDuration:"300ms"}} in={loading}>
-                            <Card sx={{  minHeight:350}}>
+                            <Card sx={{  minHeight:380}}>
                                 <CardActionArea>
                                     <CardMedia
                                     component="img"
-                                    height="140"
-                                    image="https://cdn.esanj.ir/landings/cmhq/global-standards.webp"
+                                    height="200"
+                                    image={dashboard}
                                     alt="green iguana"
                                     />
                                     <CardContent>
