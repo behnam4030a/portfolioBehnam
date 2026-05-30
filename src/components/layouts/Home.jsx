@@ -20,7 +20,7 @@ const Home = () => {
     }, [])
 
     return (
-        <Box sx={{ backgroundImage: `url(${bg1})`, height: "100vh", overflow: "hidden", backgroundPosition: "center", backgroundSize: "cover", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+        <Box sx={{ backgroundImage: `url(${bg1})`, height: "100dvh", overflow: "hidden", backgroundPosition: "center", backgroundSize: "cover", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
             <Typography sx={{ color: "whitesmoke" }} variant="h3">بهنام بیجاری</Typography>
             <Typography sx={{ color: "whitesmoke" }} variant="h6">
                 <span ref={typedRef} />

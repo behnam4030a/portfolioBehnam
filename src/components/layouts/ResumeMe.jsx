@@ -22,7 +22,7 @@ const ResumeMe = () =>{
     },[])
 
     return(
-        <Card sx={{height:"100vh",overflow:"auto"}}>
+        <Card sx={{height:"100dvh",overflow:"auto"}}>
             <CardContent>
                 <Divider textAlign="center" sx={{mb:3}}>
                     <Chip color="primary" label={
