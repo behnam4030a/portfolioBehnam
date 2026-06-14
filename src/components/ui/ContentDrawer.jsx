@@ -22,7 +22,7 @@ const ContentDrawer = () =>{
         },
         telegram:{
             name:"telegram",
-            href:"telegram.com/behnam4030a",
+            href:"https://web.telegram.org/a/#98174736",
             icon:<BsTelegram/>,
             color:"#29b6f6"
         },
